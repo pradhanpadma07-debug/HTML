@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Sign up</title>
+</head>
+<body>
+    <form action="">
+    <fieldset>
+    Individual Registration<br><br>
+    *mandatory.<br>
+    GARBAGE/JUNK VALUES IM PROFILE MAY LEAD TO DEACTIVATION
+    Please use a valid E-Mail ID and mabile number in registration.<br><br>
+    
+    <label for="user">User ID*</label>
+    <input type="text" id="user" name="user" required>
+    <a href="" >Check Availability</a><br><br>
+
+    <label for="pass">Password*</label> 
+    <input type="password" id="pass" name="pass" required><br><br> 
+
+    <label for="cpass">Confirm Password*</label>
+    <input type="password" id="cpass" name="cpass" required><br><br>
+    
+    <p>If you forget your password, we will identify you with this information</p>
+    
+    <label for="sques">Security Question*</label>
+    <select name="sques" id="sques" required>
+        <option value="q1">What is your pet name?</option>
+        <option value="q2">What is your school name?</option>
+        <option value="q3">What is your favourite colour?</option>
+    </select><br><br>
+    
+    <label for="sans">Security Answer*</label>
+    <input type="tel" id="sans" name="sans" required><br><br>
+
+    <label for="plang">Preferred Language*</label>
+    <select name="plang" id="plang" required>
+        <option value="l1">English</option>
+        <option value="l2">Hindi</option>
+        <option value="l3">Bengali</option>
+        <option value="l4">Others</option>
+    </select><br><br>
+
+    Personal Details<br><br>
+    <Label for="fname">First Name*</Label>
+    <input type="text" id="fname" name="fname" required><br><br>
+
+    <label for="mname">Middle Name</label>
+    <input type="text" id="mname" name="mname">(Optional)<br><br>
+
+    <label for="lname">Last Name*</label>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="gender" >Gender*</label>
+    <input type="radio" name="gender" id="male" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female" required>
+    <label for="female">Female</label><br><br>
+
+    <label for="mstat" >Marital Status*</label>
+    <input type="radio" name="mstat" id="married" value="married" required>
+    <label for="married">Married</label>
+    <input type="radio" id="unmarried" name="unmarried" value="unmarried" required>
+    <label for="unmarried">Unmarried</label><br><br>
+
+    <label for="dob">Date of Birth*</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="occupation">Occupation*</label>
+    <select name="occupation" id="occupation" required>
+        <option value="o1">Public</option>
+        <option value="o2">Housewife</option>
+        <option value="o3">Defence</option>
+        <option value="o4">Doctor</option>
+        <option value="o5">Self-Employeed</option>
+        <option value="o6">Student</option>
+    </select><br><br>
+
+    <label for="aadhaar">Aadhaar Card No.</label>
+    <input type="text" id="aadhaar" placeholder="xxxx-xxxx-xxxx" pattern="\d{4}-\d{4}-\d{4}" maxlength="12">(Optional)<br><br>
+
+    <label for="pan">Pan Card</label>
+    <input type="text" id="pan" maxlength="10" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}">(Optional)<br><br>
+
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="mobile">Mobile*</label>
+    +91<input type="tel" id="mobile" maxlength="10" name="mobile" required><br><br>
+
+    <label for="nat">Nationality*</label>
+    <select name="nat" id="nat" required>
+        <option value="n1">India</option>
+        <option value="n2">NRI</option>
+    </select><br><br>
+
+    Residential Address<br><br>
+
+    <label for="flat">Flat/Door/Block No.*</label>
+    <input type="text" text="flat" required><br><br>
+
+    <label for="street">Street/Lane</label>
+    <input type="text" id="street">(Optional)<br><br>
+
+    <label for="area">Area/Locality</label>
+    <input type="text" id="area">(Optional)<br><br>
+
+    <label for="country">Country*</label>
+    <select name="country" id="country" required>
+        <option value="co1">India</option>
+        <option value="co2">Russia</option>
+        <option value="co3">Italy</option>
+        <option value="co4">Japan</option>
+        <option value="co5">China</option>
+    </select><br><br>
+
+    <label for="pin">Pin Code*</label>
+    <input type="text" id="pin" maxlength="6" required><br><br>
+
+    <label for="state">State*</label>
+    <input type="text" id="state" placeholder="DELHI"><br><br>
+
+    <label for="city">City/Town*</label>
+    <select name="city" id="city" required>
+        <option value="city1">Central Delhi</option>
+        <option value="city2">North Delhi</option>
+        <option value="city3">South Delhi</option>
+    </select><br><br>
+
+    <label for="poffice">Post Office*</label>
+    <select name="poffice" id="poffice" required>
+        <option value="post1"></option>
+        <option value="post2"></option>
+        <option value="post3"></option>
+    </select><br><br>
+
+    <label for="phone">Phone*</label>
+    <input type="tel" id="phone" name="phone" maxlength="10" required><br><br>
+
+    <label for="copy">Copy Residence to office Address</label>
+    <input type="radio" name="copy" id="yes" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" name="copy" id="no" value="no">
+    <label for="no">No</label><br>
+    <p>YAD9K</p>
+
+    <label for="captcha">Type code shown</label>
+    <a href="">refresh</a>
+    <input type="text" name="captcha" id="cap"><br>
+    <p>Captcha letters are case sensitive and to be entered in Uppercase only</p><br>
+
+    <p>Subscription to IRCTC New letters/Promotions/IRCTC SBI Card through email/SMS</p>
+    <label for="f1">IRCTC Newsletters</label>
+    <input type="radio" id="f1yes" name="f1" value="yes">Yes
+    <input type="radio" id="f1no" name="f1" value="no">No<br><br>
+
+    <label for="f2">Commercial Promotions</label>
+    <input type="radio" id="f2yes" name="f2" value="yes">Yes
+    <input type="radio" id="f2no" name="f2" value="yes">No<br><br>
+
+    <label for="f3">Please infrom me about IRCTC SBI Card through phone*</label>
+    <input type="radio" id="f3yes" name="f3" value="yes" required>Yes
+    <input type="radio" id="f3no" name="f3" value="yes" required>No<br>
+
+    <p><a href="">Submit Registraion Form>>></a></p>
+
+    </fieldset>
+    </form>
+</body>
+</html>
